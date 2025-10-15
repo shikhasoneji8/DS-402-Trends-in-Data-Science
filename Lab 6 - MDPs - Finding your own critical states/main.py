@@ -2,7 +2,7 @@ from testsMdpLab import *
 #from testsProbPolicyLab import *
 #from testsRlLab import *
 #from testsDqnLab import *
-#from testsCriticalLab import *
+from testsCriticalLab import *
 #from testsPolicyIterLab import *
 
 if __name__ == '__main__':
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
 
     # MDP lab tests
-    mdpLabTest1()
+    # mdpLabTest1()
     #mdpLabTest2()
     #mdpLabTest3(seedValue=168)
     #mdpLabTest4(seedValue=465)
@@ -29,13 +29,13 @@ if __name__ == '__main__':
 
     '''
     # Prob Policy lab tests
-    probPolicyLabTest1(seedValue=42)
-    probPolicyLabTest2(seedValue=781234)
-    probPolicyLabTest3(seedValue=773521)
-    probPolicyLabTest4(seedValue=1691283)
-    probPolicyLabTest5(seedValue=986124)
-    probPolicyLabTest6(seedValue=5659173)
-    probPolicyLabTest7(seedValue=19880123)
+    # probPolicyLabTest1(seedValue=42)
+    # probPolicyLabTest2(seedValue=781234)
+    # probPolicyLabTest3(seedValue=773521)
+    # probPolicyLabTest4(seedValue=1691283)
+    # probPolicyLabTest5(seedValue=986124)
+    # probPolicyLabTest6(seedValue=5659173)
+    # probPolicyLabTest7(seedValue=19880123)
     '''
 
     '''
@@ -63,16 +63,16 @@ if __name__ == '__main__':
     DqnLabTest10(seedValue=10)
     '''
 
-    '''
+    
     # Critical States lab tests
-    CriticalLabTestSECRET(seedValue=10)
+    # CriticalLabTestSECRET(seedValue=10)
     CriticalLabTest1(seedValue=10)
-    CriticalLabTest2(seedValue=10)
-    CriticalLabTest3(seedValue=10)
-    CriticalLabTest4(seedValue=10)
-    CriticalLabTest5(seedValue=10)
-    CriticalLabTest6(seedValue=10)
-    '''
+    # CriticalLabTest2(seedValue=10)
+    # CriticalLabTest3(seedValue=10)
+    # CriticalLabTest4(seedValue=10)
+    # CriticalLabTest5(seedValue=10)
+    # CriticalLabTest6(seedValue=10)
+    
 
     '''
     # Policy Iteration Lab tests

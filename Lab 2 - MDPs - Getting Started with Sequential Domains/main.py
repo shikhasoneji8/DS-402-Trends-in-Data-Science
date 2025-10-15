@@ -19,8 +19,8 @@ if __name__ == '__main__':
 
 
     # MDP lab tests
-    # mdpLabTest1()
-    mdpLabTest2()
+    mdpLabTest1()
+    # mdpLabTest2()
     #mdpLabTest3(seedValue=168)
     #mdpLabTest4(seedValue=465)
     #mdpLabTest5(seedValue=182152)
