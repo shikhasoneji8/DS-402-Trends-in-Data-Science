@@ -3,7 +3,7 @@ from testsMdpLab import *
 #from testsRlLab import *
 #from testsDqnLab import *
 #from testsCriticalLab import *
-#from testsPolicyIterLab import *
+from testsPolicyIterLab import *
 
 if __name__ == '__main__':
     '''
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
 
     # MDP lab tests
-    mdpLabTest1()
+    # mdpLabTest1()
     #mdpLabTest2()
     #mdpLabTest3(seedValue=168)
     #mdpLabTest4(seedValue=465)
@@ -74,13 +74,13 @@ if __name__ == '__main__':
     CriticalLabTest6(seedValue=10)
     '''
 
-    '''
+    
     # Policy Iteration Lab tests
-    PolicyIterLabTest1(seedValue=12987123)
-    PolicyIterLabTest2(seedValue=71)
+    # PolicyIterLabTest1(seedValue=12987123)
+    # PolicyIterLabTest2(seedValue=71)
     PolicyIterLabTest3(seedValue=25871823)
-    PolicyIterLabTest4(seedValue=8123192847)
-    PolicyIterLabTest5(seedValue=1023123)
-    PolicyIterLabTest6(seedValue=1203981923)
-    PolicyIterLabTest7(seedValue=12123)
-    '''
+    # PolicyIterLabTest4(seedValue=8123192847)
+    # PolicyIterLabTest5(seedValue=1023123)
+    # PolicyIterLabTest6(seedValue=1203981923)
+    # PolicyIterLabTest7(seedValue=12123)
+    
