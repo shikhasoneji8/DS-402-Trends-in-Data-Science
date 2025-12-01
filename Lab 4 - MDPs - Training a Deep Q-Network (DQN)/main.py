@@ -1,7 +1,7 @@
 from testsMdpLab import *
 #from testsProbPolicyLab import *
 #from testsRlLab import *
-#from testsDqnLab import *
+from testsDqnLab import *
 #from testsCriticalLab import *
 #from testsPolicyIterLab import *
 
@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
 
     # MDP lab tests
-    mdpLabTest1()
+    # mdpLabTest1()
     #mdpLabTest2()
     #mdpLabTest3(seedValue=168)
     #mdpLabTest4(seedValue=465)
@@ -49,19 +49,19 @@ if __name__ == '__main__':
     RlLabTest7(seedValue=12123)
     '''
 
-    '''
+    
     # DQN Lab tests
-    DqnLabTest1(seedValue=10)
-    DqnLabTest2(seedValue=10)
-    DqnLabTest3(seedValue=10)
-    DqnLabTest4(seedValue=10)
-    DqnLabTest5(seedValue=10)
-    DqnLabTest6(seedValue=10)
-    DqnLabTest7(seedValue=10)
-    DqnLabTest8(seedValue=10)
-    DqnLabTest9(seedValue=10)
+    # DqnLabTest1(seedValue=10)
+    # DqnLabTest2(seedValue=10)
+    # DqnLabTest3(seedValue=10)
+    # DqnLabTest4(seedValue=10)
+    # DqnLabTest5(seedValue=10)
+    # DqnLabTest6(seedValue=10)
+    # DqnLabTest7(seedValue=10)
+    # DqnLabTest8(seedValue=10)
+    # DqnLabTest9(seedValue=10)
     DqnLabTest10(seedValue=10)
-    '''
+    
 
     '''
     # Critical States lab tests
